@@ -17,3 +17,4 @@ print(dat.describe())
 
 #%%
 dat = pd.read_csv('data/gapminder_gdp_oceania.csv')
+oceania = dat
