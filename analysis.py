@@ -14,3 +14,6 @@ dat = pd.read_csv('data/gapminder_gdp_europe.csv')
 
 #%% Descriptive statistics for the data set imported
 print(dat.describe())
+
+#%%
+dat = pd.read_csv('data/gapminder_gdp_oceania.csv')
