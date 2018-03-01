@@ -15,6 +15,6 @@ dat = pd.read_csv('data/gapminder_gdp_europe.csv')
 #%% Descriptive statistics for the data set imported
 print(dat.describe())
 
-#%%
+#%% Working with Oceania data
 dat = pd.read_csv('data/gapminder_gdp_oceania.csv')
 oceania = dat
