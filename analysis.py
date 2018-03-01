@@ -16,5 +16,5 @@ dat = pd.read_csv('data/gapminder_gdp_europe.csv')
 print(dat.describe())
 
 #%%
-dat = pd.read_csv('data/gapminder_gdp_oceania.csv')
+dat = pd.read_csv('data/gapminder_gdp_oceania.csv', index_col = 'country')
 oceania = dat
